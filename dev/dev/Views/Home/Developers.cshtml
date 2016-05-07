@@ -1,0 +1,24 @@
+﻿@{
+    Layout = null;
+    @model dev.Models.DevelopersModel
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <link href="@Url.Content("~/StyleSheets/wagdifirst.css")" rel="stylesheet" type="text/css" />
+    <title></title>
+</head>
+<body>
+<div id="wagdi-div">
+    Hello from @Model.Wagdi.FirstName @Model.Wagdi.LastName
+</div>
+
+    <div id="omar-div">
+        Hello from @Model.Omar.FirstName @Model.Omar.LastName
+    </div>
+</body>
+</html>
